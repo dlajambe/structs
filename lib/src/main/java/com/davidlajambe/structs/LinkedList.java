@@ -1,5 +1,6 @@
 package com.davidlajambe.structs;
 
+/**A sequence of reference-linked nodes allowing for dynamic data storage.*/
 public class LinkedList<T> {
     Node<T> head;
     long length = 0;
