@@ -1,11 +1,11 @@
 package com.davidlajambe.structs;
 
-public class Pair<T1, T2> {
-    T1 value1 = null;
-    T2 value2 = null;
+public class Pair<K, V> {
+    K key;
+    V value;
 
-    Pair(T1 value1, T2 value2) {
-        this.value1 = value1;
-        this.value2 = value2;
+    Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
     }
 }
