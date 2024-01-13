@@ -18,6 +18,10 @@ public class LinkedList<T> {
         ++this.length;
     }
 
+    public void remove(T t) {
+        
+    }
+
     public long size() {
         return this.length;
     }
