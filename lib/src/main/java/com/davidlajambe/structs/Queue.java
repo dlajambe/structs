@@ -37,5 +37,15 @@ public class Queue<T> {
         return this.first.data;
     }
 
+    public int size() {
+        int size = 0;
+        Node<T> n = this.first;
+        while (n != null) {
+            size++;
+            n = n.next;
+        }
+        return size;
+    }
+
 }
 

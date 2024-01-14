@@ -29,4 +29,14 @@ public class Stack<T> {
         this.top = this.top.next;
         return removed_val;
     }
+
+    public int size() {
+        int size = 0;
+        Node<T> n = this.top;
+        while (n != null) {
+            size++;
+            n = n.next;
+        }
+        return size;
+    }
 }

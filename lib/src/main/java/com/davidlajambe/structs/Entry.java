@@ -1,10 +1,10 @@
 package com.davidlajambe.structs;
 
-public class Pair<K, V> {
+public class Entry<K, V> {
     K key;
     V value;
 
-    Pair(K key, V value) {
+    Entry(K key, V value) {
         this.key = key;
         this.value = value;
     }
